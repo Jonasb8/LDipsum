@@ -1,0 +1,73 @@
+html {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #bdbdbd
+}
+
+h2 {
+	font-size: 20px;
+	color: #424242;
+	font-style: italic;
+}
+
+.content {
+	border: solid 1px;
+	border-radius: 5px;
+	margin-bottom: 0.75em;
+	padding:10px;
+}
+
+body {
+	backgroundd-color: #808080;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: right;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.photo, .right {
+	float: left;
+	width: 50%;
+}
+
+.photo {
+	min-height: 100vh;
+	height: 100%;
+	background: url(https://louisduhamel.fr/wp-content/uploads/2014/02/486969_10151172973664538_1232473126_n.jpg);
+	background-size:cover;
+}
+
+.right-content{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+form {
+	width: 200px;
+	margin-bottom: 7px;
+}
+
+input {
+	border-radius: 3px;
+	border: solid 1px grey;
+	padding-left: 3px;
+	width: 60px;
+	height: 20px;
+}
+
+.paragraphe {
+	display: none;
+}
+
+.show {
+	display: block!important;
+}
